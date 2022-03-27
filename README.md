@@ -1,3 +1,5 @@
+<img src="img/lfg_logo.png" width="200">
+
 # LFG
 We often say that a fight in the NHL helps "fire up the team", or "electrifies the building", but what does that really mean? Is there a way to quantify this phenomenon?
 

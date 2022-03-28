@@ -17,11 +17,11 @@ Using a dataset containing game data for every NHL regular season game between 2
 
 The following results have been found using data from all NHL regular season games between 2015-2021.  The percentage shown shows how often the metric _increases_ after a fight.
 
-| Metric        | Home Team          | Away Team  | Total  |
-| ------------- |:------------------:| ----------:| ------:|
-| SH/60         | 41.33%             | 42.32%     | 42.26% |
-| HIT/60        | 23.54%             | 22.12%     | 18.09% |
-| PEN/60        | 37.36%             | 40.15%     | 51.98% |
+| Metric        | Home Team          | Away Team  | Combined  |
+| ------------- |:------------------:| ----------:| ---------:|
+| SH/60         | 41.33%             | 42.32%     | 42.26%    |
+| HIT/60        | 23.54%             | 22.12%     | 18.09%    |
+| PEN/60        | 37.36%             | 40.15%     | 51.98%    |
 
 _Example interpretation: The total PEN/60 rate for both teams increases after a fight 51.98% of the time._
 
@@ -376,7 +376,7 @@ We can then round the data to 2 decimal places and print it out:
 
 ## Next Steps
 
-This project was a fun way to practice data aggregation and processing in Python using the Python library.  There is also a lot of potential to improve on this project.  Some examples of this include:
+This project was a fun way to practice data aggregation and processing in Python using the Pandas library.  There is also a lot of potential to improve on this project.  Some examples of this include:
 
 * Creating a statistic (LFG) that represents a  player's individual contribution to the game pace change after a fight
     * Eg. a player with an LFG statistic of 108 means that the game pace increases by 8% after this player fights
